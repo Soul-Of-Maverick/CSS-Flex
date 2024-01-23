@@ -1,0 +1,23 @@
+.container{
+    color: white;
+    border: 5px solid gold;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+  
+  .container > *{
+    
+    text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    /* flex: 1 1 0; //grow shrink basis */
+    /* flex: 1; */
+  }
+  
+  
+  .red{background-color: #eb4d4b;}
+  .orange{background-color: #f0932b;}
+  .purple{background-color: #be2edd;}

@@ -1,0 +1,23 @@
+.container{
+    color: white;
+    border: 5px solid gold;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    height: 500px;
+  }
+  
+  .container > *{
+    flex-basis: 100px;
+    text-align: center;
+    height: 100px;
+  }
+  
+  
+  .red{background-color: #eb4d4b;}
+  .orange{background-color: #f0932b; order: 3;}
+  .yellow{background-color: #f6e58d;}
+  .green{background-color: #6ab04c;}
+  .blue{background-color: #4834d4;}
+  .indigo{background-color: #30336b;align-self: flex-end;}
+  .purple{background-color: #be2edd;}
